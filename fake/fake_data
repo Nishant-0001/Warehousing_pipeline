@@ -1,0 +1,83 @@
+import csv
+import os
+import random
+from datetime import datetime, timedelta
+
+# Create a directory if it does not exist
+file_location = "Bronze/raw/Data_Ingestion"
+if not os.path.exists(file_location):
+    os.makedirs(file_location)
+
+# Define base file name with a timestamp for uniqueness
+base_file_name = "sales_data"
+timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+dynamic_file_name = f"{base_file_name}_{timestamp}.csv"
+csv_file_path = os.path.join(file_location, dynamic_file_name)
+
+# Define sample data
+def generate_order_id():
+    return f"ORD{random.randint(1, 999999999)}"
+
+def generate_customer_name():
+    first_names = ["John", "Jane", "Alex", "Emily", "Michael"]
+    last_names = ["Doe", "Smith", "Johnson", "Brown", "Lee"]
+    return f"{random.choice(first_names)} {random.choice(last_names)}"
+
+def generate_phone_number():
+    return f"+1-{random.randint(100, 999)}-{random.randint(1000, 9999)}"
+
+def generate_location():
+    cities = ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix"]
+    return random.choice(cities)
+
+def generate_country():
+    return "USA"
+
+def generate_store_code():
+    return f"STR{random.randint(100, 999)}"
+
+def generate_product():
+    products = ["Laptop", "Smartphone", "Tablet", "Headphones", "Smartwatch"]
+    return random.choice(products)
+
+def generate_quantity():
+    return round(random.uniform(1, 10), 2)  # Ensure Quantity is a float
+
+def generate_price():
+    return round(random.uniform(10, 1000), 2)
+
+def generate_date() -> str:
+    start_date = datetime(2022, 1, 1)
+    end_date = datetime(2023, 1, 1)
+    random_date = start_date + timedelta(days=random.randint(0, (end_date - start_date).days))
+    return str(random_date.strftime("%Y-%m-%d"))  # Ensure Date is a string
+
+def generate_credit_card_number():
+    return f"{random.randint(1000, 9999)}-{random.randint(1000, 9999)}-{random.randint(1000, 9999)}-{random.randint(1000, 9999)}"
+
+def generate_expiry_date():
+    return f"{random.randint(1, 12):02d}/{random.randint(22, 28)}"
+
+# Write data to CSV file
+with open(csv_file_path, "w", newline="") as csvfile:
+    csvwriter = csv.writer(csvfile)
+    csvwriter.writerow(["OrderID", "CustomerName", "PhoneNumber", "Location", "Country", "StoreCode", "Product", "Quantity", "Price", "Date", "CreditCardNumber", "ExpiryDate"])
+
+    for _ in range(1000000):
+        row = [
+            generate_order_id(),
+            generate_customer_name(),
+            generate_phone_number(),
+            generate_location(),
+            generate_country(),
+            generate_store_code(),
+            generate_product(),
+            generate_quantity(),
+            generate_price(),
+            generate_date(),
+            generate_credit_card_number(),
+            generate_expiry_date()
+        ]
+        csvwriter.writerow(row)
+
+print(f"CSV file generated successfully at {csv_file_path}.")

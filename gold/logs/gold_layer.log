@@ -1,0 +1,18 @@
+2024-08-22 00:41:27.759 | INFO     | functions:initialize_spark:22 - Spark session initialized.
+2024-08-22 00:41:32.901 | INFO     | functions:load_silver_data:27 - Data loaded successfully from Silver layer.
+2024-08-22 00:41:33.105 | INFO     | functions:create_dimension_tables:35 - Dimension tables created successfully.
+2024-08-22 00:41:45.162 | INFO     | functions:write_dimension_tables_to_mysql:43 - Dimension tables written successfully to MySQL.
+2024-08-22 00:41:48.324 | INFO     | functions:write_dimension_tables_to_disk:50 - Dimension tables written successfully to disk.
+2024-08-22 00:41:48.714 | INFO     | functions:create_fact_table:58 - Fact table created successfully.
+2024-08-22 00:41:53.562 | INFO     | functions:write_fact_table_to_mysql:63 - Fact table written successfully to MySQL.
+2024-08-22 00:41:55.754 | INFO     | functions:write_fact_table_to_disk:67 - Fact table written successfully to disk.
+2024-08-22 00:41:55.754 | INFO     | __main__:main:43 - Gold layer processing completed.
+2024-08-22 00:46:32.168 | INFO     | functions:initialize_spark:22 - Spark session initialized.
+2024-08-22 00:46:37.498 | INFO     | functions:load_silver_data:27 - Data loaded successfully from Silver layer.
+2024-08-22 00:46:37.699 | INFO     | functions:create_dimension_tables:35 - Dimension tables created successfully.
+2024-08-22 00:46:49.708 | INFO     | functions:write_dimension_tables_to_mysql:43 - Dimension tables written successfully to MySQL.
+2024-08-22 00:46:52.190 | INFO     | functions:write_dimension_tables_to_disk:50 - Dimension tables written successfully to disk.
+2024-08-22 00:46:52.584 | INFO     | functions:create_fact_table:58 - Fact table created successfully.
+2024-08-22 00:46:59.931 | INFO     | functions:write_fact_table_to_mysql:63 - Fact table written successfully to MySQL.
+2024-08-22 00:47:01.815 | INFO     | functions:write_fact_table_to_disk:67 - Fact table written successfully to disk.
+2024-08-22 00:47:01.817 | INFO     | __main__:main:43 - Gold layer processing completed.

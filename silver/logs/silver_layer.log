@@ -1,0 +1,24 @@
+2024-08-22 00:41:10.190 | INFO     | functions:initialize_spark:16 - Spark session initialized.
+2024-08-22 00:41:14.776 | INFO     | functions:load_bronze_data:21 - Data loaded successfully from Bronze layer.
+2024-08-22 00:41:19.929 | INFO     | functions:write_silver_data:29 - Data written successfully to Silver layer.
+2024-08-22 00:41:19.929 | INFO     | __main__:main:21 - Silver layer processing completed.
+2024-08-22 00:46:13.290 | INFO     | functions:initialize_spark:16 - Spark session initialized.
+2024-08-22 00:46:17.891 | INFO     | functions:load_bronze_data:21 - Data loaded successfully from Bronze layer.
+2024-08-22 00:46:23.237 | INFO     | functions:write_silver_data:29 - Data written successfully to Silver layer.
+2024-08-22 00:46:23.254 | INFO     | __main__:main:21 - Silver layer processing completed.
+2024-08-22 01:27:14.040 | INFO     | functions:initialize_spark:16 - Spark session initialized.
+2024-08-22 01:27:22.917 | INFO     | functions:load_bronze_data:21 - Data loaded successfully from Bronze layer.
+2024-08-22 01:27:33.078 | INFO     | functions:write_silver_data:29 - Data written successfully to Silver layer.
+2024-08-22 01:27:33.078 | INFO     | __main__:main:21 - Silver layer processing completed.
+2024-08-22 11:34:56.888 | INFO     | functions:initialize_spark:16 - Spark session initialized.
+2024-08-22 11:35:29.557 | INFO     | functions:load_bronze_data:21 - Data loaded successfully from Bronze layer.
+2024-08-22 11:35:43.480 | INFO     | functions:write_silver_data:29 - Data written successfully to Silver layer.
+2024-08-22 11:35:43.481 | INFO     | __main__:main:21 - Silver layer processing completed.
+2024-08-22 11:43:16.805 | INFO     | functions:initialize_spark:16 - Spark session initialized.
+2024-08-22 11:43:20.803 | INFO     | functions:load_bronze_data:21 - Data loaded successfully from Bronze layer.
+2024-08-22 11:43:25.207 | INFO     | functions:write_silver_data:29 - Data written successfully to Silver layer.
+2024-08-22 11:43:25.208 | INFO     | __main__:main:21 - Silver layer processing completed.
+2024-08-22 11:46:02.218 | INFO     | functions:initialize_spark:16 - Spark session initialized.
+2024-08-22 11:46:05.964 | INFO     | functions:load_bronze_data:21 - Data loaded successfully from Bronze layer.
+2024-08-22 11:46:10.253 | INFO     | functions:write_silver_data:29 - Data written successfully to Silver layer.
+2024-08-22 11:46:10.253 | INFO     | __main__:main:21 - Silver layer processing completed.

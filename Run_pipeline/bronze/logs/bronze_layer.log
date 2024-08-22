@@ -1,0 +1,12 @@
+2024-08-22 01:13:24.210 | INFO     | __main__:<module>:10 - Starting Bronze layer processing.
+2024-08-22 01:13:24.258 | INFO     | __main__:<module>:18 - Found files: []
+2024-08-22 01:13:24.261 | ERROR    | __main__:<module>:27 - No valid files found in the directory. Exiting.
+2024-08-22 01:13:24.263 | INFO     | __main__:<module>:34 - Bronze layer processing completed.
+2024-08-22 01:21:58.877 | INFO     | __main__:<module>:10 - Starting Bronze layer processing.
+2024-08-22 01:21:58.877 | INFO     | __main__:<module>:18 - Found files: []
+2024-08-22 01:21:58.877 | ERROR    | __main__:<module>:27 - No valid files found in the directory. Exiting.
+2024-08-22 01:21:58.877 | INFO     | __main__:<module>:34 - Bronze layer processing completed.
+2024-08-22 01:22:39.262 | INFO     | __main__:<module>:10 - Starting Bronze layer processing.
+2024-08-22 01:22:39.262 | INFO     | __main__:<module>:18 - Found files: []
+2024-08-22 01:22:39.262 | ERROR    | __main__:<module>:27 - No valid files found in the directory. Exiting.
+2024-08-22 01:22:39.262 | INFO     | __main__:<module>:34 - Bronze layer processing completed.
